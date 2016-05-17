@@ -7,7 +7,7 @@ Installation
 ------------
 Run
 ```code
-composer require demi/php-timelog
+composer require "demi/php-timelog" "~1.0"
 ```
 
 Usage
