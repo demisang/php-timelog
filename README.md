@@ -7,7 +7,7 @@ Installation
 ------------
 Run
 ```code
-php composer.phar require "demi/php-timer" "~1.0"
+composer require demi/php-timelog
 ```
 
 Usage
