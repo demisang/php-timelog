@@ -14,7 +14,6 @@ Usage
 -----
 For any console action:
 ```php
-
 $bigData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 $allCount = count($bigData);
@@ -26,7 +25,7 @@ foreach ($bigData as $item) {
     // some handling finish...
 
     $timer->handled++;
-    $timer->showStatus(3);
+    $timer->showStatus(3); // 3 - how often show status message
 }
 $timer->showFinish();
 ```
