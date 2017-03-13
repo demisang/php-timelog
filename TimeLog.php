@@ -80,7 +80,7 @@ class TimeLog
         $speed = $this->getSpeed();
         $notHandledCount = $this->all - $this->handled;
 
-        $remainingSeconds = $speed !== 0 ? $notHandledCount / $speed : $notHandledCount;
+        $remainingSeconds = $speed != 0 ? $notHandledCount / $speed : $notHandledCount;
 
         return round($remainingSeconds);
     }
