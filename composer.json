@@ -1,14 +1,14 @@
 {
     "name": "demi/php-timelog",
     "description": "PHP timer for long-time operations",
-    "keywords": ["php", "timer", "log"],
+    "keywords": ["php", "timer", "log", "duration"],
     "homepage": "https://github.com/demisang/php-timelog#readme",
     "type": "library",
-    "license": "GNU",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Ivan Orlov",
-            "email": "orlov_mail@mail.ru",
+            "email": "gnasimed@gmail.com",
             "homepage": "https://orlov.io/",
             "role": "Creator"
         }
